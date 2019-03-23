@@ -1,0 +1,24 @@
+﻿  ANN_NEW.cpp
+d:\exe\ann_new\ann_new\ann_new\vector_set.hpp(48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  d:\exe\ann_new\ann_new\ann_new\ann_new.cpp(55): note: 参见对正在编译的函数 模板 实例化“void core_calculation<float>(int,const int,T **,int **,ss::Matrix<T> &)”的引用
+          with
+          [
+              T=float
+          ]
+d:\exe\ann_new\ann_new\ann_new\matrix.hpp(110): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+  d:\exe\ann_new\ann_new\ann_new\matrix.hpp(54): note: 参见对正在编译的函数 模板 实例化“void ss::loadFvecs<float>(ss::Matrix<float> *,const std::string &)”的引用
+  d:\exe\ann_new\ann_new\ann_new\matrix.hpp(53): note: 编译 类 模板 成员函数 "ss::Matrix<float>::Matrix(const std::string &)" 时
+  d:\exe\ann_new\ann_new\ann_new\ann_new.cpp(14): note: 参见对正在编译的函数 模板 实例化“ss::Matrix<float>::Matrix(const std::string &)”的引用
+  d:\exe\ann_new\ann_new\ann_new\ann_new.cpp(14): note: 参见对正在编译的 类 模板 实例化 "ss::Matrix<float>" 的引用
+d:\exe\ann_new\ann_new\ann_new\vector_set.hpp(21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  d:\exe\ann_new\ann_new\ann_new\vector_set.hpp(33): note: 参见对正在编译的函数 模板 实例化“T distance_calculation<T>(T **,ss::Matrix<T> &,const int,const int)”的引用
+          with
+          [
+              T=float
+          ]
+  d:\exe\ann_new\ann_new\ann_new\ann_new.cpp(46): note: 参见对正在编译的函数 模板 实例化“void cluster_divide<float>(const int,const int,int **,T **,ss::Matrix<T> &)”的引用
+          with
+          [
+              T=float
+          ]
+  ANN_NEW.vcxproj -> D:\exe\ANN_NEW\ANN_NEW\Debug\ANN_NEW.exe
